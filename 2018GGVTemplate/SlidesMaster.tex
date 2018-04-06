@@ -1,0 +1,40 @@
+\documentclass{beamer}
+%\documentclass{article}
+%\usetheme{Berkeley}
+%\usetheme{Warsaw}
+\usetheme{Malmoe}
+%\usercolortheme{beetle}
+\usefonttheme{structurebold}
+%\usetheme{Copenhagen}
+% Copenhagen is great but doesn't work with Chinese for whatever reason, use it for English language talks
+\usecolortheme{beetle}
+\usefonttheme{structuresmallcapsserif}
+
+\usepackage[T1]{CJKutf8}
+\usepackage{pinyin}
+\usepackage{longtable}
+
+\begin{document}
+
+\begin{CJK*}{UTF8}{gbsn}
+
+	\title[中文题目]{中文题目}
+	\subtitle{English Title}
+	\author[秦汉]{秦汉，医学博士，公共卫生硕士\\ Thomas C. Hicks, MD, MPH}
+	\institute{甘肃佳伟}
+	\date{2018年\\Spring, 2018}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+%\begin{frame}
+	%\frametitle{内容}
+	%\tableofcontents
+%\end{frame}
+
+\include{Slides}
+
+\end{CJK*}
+
+\end{document}
